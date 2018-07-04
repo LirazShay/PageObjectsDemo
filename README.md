@@ -1,2 +1,2 @@
 # PageObjectsDemo
-Demonstration of how to build robust PageObject classes that follows OOP concepts  
+Demonstration of how to build robust PageObject classes that follow OOP concepts  
