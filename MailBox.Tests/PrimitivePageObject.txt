@@ -1,0 +1,14 @@
+﻿bool isUnread = inbox.IsMessageWithSubjectIsUnread("I like cheese")
+bool isUnread = inbox.IsMessageFromSenderIsUnread("Gil")
+bool hasFlag = inbox.IsMessageWithSubjectHasFlag("I like cheese")
+bool hasFlag = inbox.IsMessageFromSenderHasFlag("Gil")
+string subject = inbox.GetSubjectBySender("Git")
+string sender = inbox.GetSenderBySubject("I like cheese")
+inbox.OpenMessageBySubject("I like cheese")
+inbox.OpenMessageBySender("Gil")
+string dateBySender = inbox.GetDateOfMessageWithSender("Git")
+string dateBySubject = inbox.GetDateOfMessageWithSubject("I like cheese")
+int count = inbox.GetCountOfUnread();
+int count = inbox.GetCountByDate(DateTime.Today);
+string sizeBySender = inbox.GetMessageSizeBySender("Git")
+string sizeBySubject = inbox.GetMessageSizeBySubject("I like cheese")
