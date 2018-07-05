@@ -1,6 +1,9 @@
 # PageObjectsDemo
 Demonstration of how to build robust PageObject classes that follow OOP concepts  
 
+Slides for my session about Selenium Design Patterns are here:  
+https://www.slideshare.net/LirazShay/selenium-design-patterns-104347453
+
 The solution contains 2 projects
 1. MailBox without Selenlium implementation 
 2. TodoMVC tests - woring example (with Selenium implementation) on the http://todomvc.com/examples/angularjs/#/ 
